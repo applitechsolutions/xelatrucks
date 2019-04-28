@@ -2,7 +2,8 @@
     <!-- BEGIN BASE JS -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/popper.min.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script> <!-- END BASE JS -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script> <!-- END BASE JS -->
     <!-- BEGIN PLUGINS JS -->
     <script src="assets/vendor/pace/pace.min.js"></script>
     <script src="assets/vendor/stacked-menu/stacked-menu.min.js"></script>

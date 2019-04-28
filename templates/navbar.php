@@ -1,3 +1,4 @@
+    <div class="app">
     <!-- .app-header -->
       <header class="app-header app-header-dark">
         <!-- .top-bar -->

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!-- End Required meta tags -->
     <!-- Begin SEO tag -->
-    <title> Dashboard | Looper - Bootstrap 4 Admin Theme </title>
+    <title> La Viña S.A. </title>
     <meta property="og:title" content="Dashboard">
     <meta name="author" content="Beni Arisandi">
     <meta property="og:locale" content="en_US">
@@ -14,21 +14,6 @@
     <link rel="canonical" href="http://uselooper.com">
     <meta property="og:url" content="http://uselooper.com">
     <meta property="og:site_name" content="Looper - Bootstrap 4 Admin Theme">
-    <script type="application/ld+json">
-      {
-        "name": "Looper - Bootstrap 4 Admin Theme",
-        "description": "Responsive admin theme build on top of Bootstrap 4",
-        "author":
-        {
-          "@type": "Person",
-          "name": "Beni Arisandi"
-        },
-        "@type": "WebSite",
-        "url": "",
-        "headline": "Dashboard",
-        "@context": "http://schema.org"
-      }
-    </script><!-- End SEO tag -->
     <!-- FAVICONS -->
     <link rel="apple-touch-icon" sizes="144x144" href="assets/apple-touch-icon.png">
     <link rel="shortcut icon" href="assets/favicon.ico">
@@ -52,7 +37,3 @@
   </head>
   <body>
     <!-- .app -->
-    <div class="app">
-      <!--[if lt IE 10]>
-      <div class="page-message" role="alert">You are using an <strong>outdated</strong> browser. Please <a class="alert-link" href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</div>
-      <![endif]-->
