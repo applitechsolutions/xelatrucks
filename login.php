@@ -30,7 +30,7 @@
         <!-- .form-group -->
         <div class="form-group text-center">
           <div class="custom-control custom-control-inline custom-checkbox">
-            <input type="checkbox" class="custom-control-input" id="remember-me"> <label class="custom-control-label" for="remember-me">Recuerdame</label>
+            <input type="checkbox" class="custom-control-input" id="remember-me"> <label class="custom-control-label" for="remember-me">Recuérdame</label>
           </div>
         </div><!-- /.form-group -->
       </form><!-- /.auth-form -->
