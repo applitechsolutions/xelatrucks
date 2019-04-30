@@ -8,6 +8,7 @@ if (isset($_POST['ingresar'])) {
 
     try {
         include_once '../functions/bd_conexion.php';
+        $conn->set_charset("utf8");
         $stmt = $conn->prepare("SELECT idUser, (select name from area where idArea = _idArea) as _idArea, name, lastName, user, passWord, rol, state FROM user WHERE user = ?;");
         $stmt->bind_param("s", $usuario);
         $stmt->execute();

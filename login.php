@@ -1,5 +1,14 @@
 <?php
-include_once 'functions/sesiones.php';
+if ($_GET) {
+    session_start();
+    $cerrar_sesion = $_GET['cerrar_sesion'];
+} else {
+    $cerrar_sesion = false;
+}
+
+if ($cerrar_sesion) {
+    session_destroy();
+}
 include_once 'templates/header.php';
 include_once 'functions/bd_conexion.php';
 ?>

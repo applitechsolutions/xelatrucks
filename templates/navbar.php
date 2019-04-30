@@ -97,10 +97,10 @@
               </ul><!-- /.nav -->
               <!-- .btn-account -->
               <div class="dropdown">
-                <button class="btn-account d-none d-md-flex" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="user-avatar user-avatar-md"><img src="assets/images/avatars/profile.jpg" alt=""></span> <span class="account-summary pr-lg-4 d-none d-lg-block"><span class="account-name"><?php echo $_SESSION['name']; ?></span> <span class="account-description"><?php echo $_SESSION['area']; ?></span></span></button>
+                <button class="btn-account d-none d-md-flex" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="user-avatar user-avatar-md"><img src="assets/images/avatars/profile.jpg" alt=""></span> <span class="account-summary pr-lg-4 d-none d-lg-block"><span class="account-name"><?php echo $_SESSION['nombre']; ?></span> <span class="account-description"><?php echo $_SESSION['area']; ?></span></span></button>
                 <div class="dropdown-arrow dropdown-arrow-left"></div><!-- .dropdown-menu -->
                 <div class="dropdown-menu">
-                  <h6 class="dropdown-header d-none d-md-block d-lg-none"> <?php echo $_SESSION['name']; ?> </h6><a class="dropdown-item" href="user-profile.html"><span class="dropdown-icon oi oi-person"></span> Perfil</a> <a class="dropdown-item" href="auth-signin-v1.html"><span class="dropdown-icon oi oi-account-logout"></span> Cerrar Sesión</a>
+                  <h6 class="dropdown-header d-none d-md-block d-lg-none"> <?php echo $_SESSION['nombre']; ?> </h6><a class="dropdown-item" href="user-profile.html"><span class="dropdown-icon oi oi-person"></span> Perfil</a> <a class="dropdown-item" href="login.php?cerrar_sesion=true"><span class="dropdown-icon oi oi-account-logout"></span> Cerrar Sesión</a>
                 </div><!-- /.dropdown-menu -->
               </div><!-- /.btn-account -->
             </div><!-- /.top-bar-item -->
