@@ -15,6 +15,7 @@
             <a class="text-muted" href="#">Terms of Service</a>
         </li>
     </ul> -->
+
     <div class="copyright"> <strong>Copyright &copy; 2019 - <?php echo date("Y"); ?> APPLITECH SOFTWARE SOLUTIONS.
         </strong>
         Todos Los
@@ -32,10 +33,17 @@
 <script src="assets/vendor/flatpickr/flatpickr.min.js"></script>
 <script src="assets/vendor/easy-pie-chart/jquery.easypiechart.min.js"></script>
 <script src="assets/vendor/chart.js/Chart.min.js"></script> <!-- END PLUGINS JS -->
+<script src="assets/vendor/datatables/jquery.dataTables.min.js"></script>
+<script src="assets/vendor/datatables/extensions/buttons/dataTables.buttons.min.js"></script>
+<script src="assets/vendor/datatables/extensions/buttons/buttons.bootstrap4.min.js"></script>
+<script src="assets/vendor/datatables/extensions/buttons/buttons.html5.min.js"></script>
+<script src="assets/vendor/datatables/extensions/buttons/buttons.print.min.js"></script>
 <!-- BEGIN THEME JS -->
 <script src="assets/javascript/theme.min.js"></script> <!-- END THEME JS -->
 <!-- BEGIN PAGE LEVEL JS -->
-<script src="assets/javascript/pages/dashboard-demo.js"></script> <!-- END PAGE LEVEL JS -->
+<script src="assets/javascript/pages/dataTables.bootstrap.js"></script>
+<script src="assets/javascript/pages/datatables-demo.js"></script> <!-- END PAGE LEVEL JS -->
+<!-- END PAGE LEVEL JS -->
 </body>
 
 </html>
