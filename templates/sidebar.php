@@ -31,7 +31,7 @@
                         <!-- .menu-header -->
                         <li class="menu-header">Vehículos </li><!-- /.menu-header -->
                         <!-- .menu-header -->
-                        <li class="menu-header">Administratico </li><!-- /.menu-header -->
+                        <li class="menu-header">Administrativo </li><!-- /.menu-header -->
                         <!-- .menu-item -->
                         <li class="menu-item has-child">
                             <a href="#" class="menu-link"><span class="menu-icon oi oi-people"></span> <span
@@ -403,7 +403,7 @@
             </div><!-- /.aside-menu -->
             <!-- Skin changer -->
             <footer class="aside-footer border-top p-3">
-                <button class="btn btn-light btn-block text-primary" data-toggle="skin">Night mode <i
+                <button class="btn btn-light btn-block text-primary" data-toggle="skin">Tema Oscuro <i
                         class="fas fa-moon ml-1"></i></button>
             </footer><!-- /Skin changer -->
         </div><!-- /.aside-content -->
