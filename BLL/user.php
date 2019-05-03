@@ -42,22 +42,24 @@ if ($_POST['usuario'] == 'nuevo') {
     }
     die(json_encode($respuesta));
 }
-/*
+
 if ($_POST['usuario'] == 'editar') {
 
     $idUser = $_POST['idUser'];
-    $firstName = $_POST['firstName'];
-    $lastName = $_POST['lastName'];
-    $permissions = $_POST['gridRadios'];
+    $firstName = $_POST['nombre'];
+    $lastName = $_POST['apellido'];
+    $userName = $_POST['user'];
+    $permissions = $_POST['rdGroup1'];
+    $area = $_POST['area'];
 
     try {
-        if ($firstName == '' or $lastName == '') {
+        if ($firstName == '' or $userName == '' or $permissions == '' or $area == '') {
             $respuesta = array(
                 'respuesta' => 'vacio',
             );
         } else {
-            $stmt = $conn->prepare("UPDATE user SET firstName = ?, lastName = ?, permissions = ? WHERE idUser = ?");
-            $stmt->bind_param("ssii", $firstName, $lastName, $permissions, $idUser);
+            $stmt = $conn->prepare("UPDATE user SET _idArea = ?, name = ?, lastName = ?, user = ?, rol = ? WHERE idUser = ?");
+            $stmt->bind_param("isssii", $area, $firstName, $lastName, $userName, $permissions, $idUser);
             $stmt->execute();
             if ($stmt->affected_rows) {
                 $respuesta = array(
@@ -112,5 +114,4 @@ if ($_POST['usuario'] == 'eliminar') {
     }
     die(json_encode($respuesta));
 }
-*/
 ?>
